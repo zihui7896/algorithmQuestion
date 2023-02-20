@@ -344,7 +344,10 @@ var findComplement = function (num) {
 };
 ```
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1a50c2d3e904747ed7bd42264f33d2dccfaf23df
 
 ```java
 class Solution {
