@@ -4,7 +4,7 @@
 
 ### 位运算
 
-![](images\image-20220808173359864.png)
+![](./images/image-20220808173359864.png)
 
 & 与 都为一才是一
 
@@ -344,7 +344,7 @@ var findComplement = function (num) {
 };
 ```
 
-![image-20220809125635357](C:\Users\33359\AppData\Roaming\Typora\typora-user-images\image-20220809125635357.png)
+
 
 ```java
 class Solution {
