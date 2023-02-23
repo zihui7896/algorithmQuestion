@@ -5,6 +5,7 @@ public class Text {
         Scanner sc = new Scanner(System.in);
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter pw = new PrintWriter(new OutputStreamWriter(System.out));
+        String[] stings = bf.readLine().split(" ");
         pw.flush();
     }
 }
