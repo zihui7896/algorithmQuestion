@@ -1,9 +1,9 @@
-package Acw.java;// 429. 奖学金
+package acw.java;// 429. 奖学金
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Comparator;
 
-public class ArraySort_429 {
+public class _429 {
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         

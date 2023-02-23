@@ -1,4 +1,4 @@
-package Acw.java;
+package acw.java;
 import java.util.Scanner;
 
 public class _4729 {
