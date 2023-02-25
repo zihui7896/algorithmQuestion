@@ -3,7 +3,7 @@ package acw.java.com;
 
 import java.util.Scanner;
 
-public class _4510 {
+public class Ac_4510 {
     public static final int N = 1010, M = 55;
     public static pair[] arr = new pair[N];
     public static int[][] b = new int[M][M];
