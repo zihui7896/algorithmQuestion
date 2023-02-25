@@ -1,4 +1,4 @@
-package acw.java.com;
+package acw.java.com.usaco;
 
 import java.util.Arrays;
 import java.util.Scanner;
