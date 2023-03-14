@@ -51,7 +51,7 @@ double bsearch_3(double l, double r)
 
 ###### 790.数的三次方根
 
-![](./images/acSaber/20230313203517.png)
+![](../images/acSaber/20230313203517.png)
 
 ```java
 import java.util.Scanner;
@@ -85,9 +85,11 @@ public class Main {
 
 #### 贪心
 
+##### acwing
+
 ###### 905.区间选点 [https://www.acwing.com/problem/content/907/](https://www.acwing.com/problem/content/907/)
 
-![](./images/acSaber/微信截图_20230314105927.png)
+![](../images/acSaber/微信截图_20230314105927.png)
 
 ```
 import java.util.Scanner;
@@ -165,9 +167,11 @@ class pair {
 }
 ```
 
+##### leetcode
+
 ###### 452.用最少数量的箭引爆气球  [https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/](https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/)
 
-![](./images/leetcode/微信截图_20230314221159.png)
+![](../images/leetcode/微信截图_20230314221159.png)
 
 ```java
 class Solution {
@@ -195,7 +199,7 @@ class Solution {
 
 ###### 179.最大数 [https://leetcode.cn/problems/largest-number/](https://leetcode.cn/problems/largest-number/)
 
-![](./images/leetcode/微信截图_20230314221807.png)
+![](../images/leetcode/微信截图_20230314221807.png)
 
 ```java
 class Solution {
