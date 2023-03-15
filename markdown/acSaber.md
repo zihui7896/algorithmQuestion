@@ -524,3 +524,54 @@ int main()
 }
 ```
 
+
+
+
+
+### 数据结构
+
+#### 哈希表
+
+###### 2058.笨拙的手指 [https://www.acwing.com/problem/content/2060/](https://www.acwing.com/problem/content/2060/)
+
+```java
+import java.util.Scanner;
+import java.util.Set;
+import java.util.HashSet;
+
+public class Main {
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        char[] a = sc.next().toCharArray(), b = sc.next().toCharArray();
+        
+        Set<Integer> set = new HashSet<>();
+        for (int i = 0; i < a.length; i ++) {
+            a[i] ^= 1;  // 改变 1 变 0， 0 变 1;
+            set.add(conversion(a, 2));
+            a[i] ^= 1;  // 还原
+        }
+        for (int i = 0; i < b.length; i ++) {
+            char c = b[i];
+            for (int j = 0; j < 3; j ++) {
+                if (c !=  j + '0') {
+                    b[i] = (char) ((char) j + '0');
+                    if (set.contains(conversion(b, 3))) {
+                        System.out.print(conversion(b, 3));
+                        return;
+                    }
+                }
+            }
+            b[i] = c;
+        }
+    }
+    public static int conversion (char[] arr, int k) {
+        int res = 0;
+        for (int i = 0; i < arr.length; i ++) {
+            res = res * k + (arr[i] - '0');
+        }
+        return res;
+    }
+}
+```
+
