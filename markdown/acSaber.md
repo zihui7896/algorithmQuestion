@@ -207,7 +207,7 @@ class pair {
 
 ##### luogu
 
-###### ([P2240 【深基12.例1】部分背包问题 - 洛谷 |](https://www.luogu.com.cn/problem/P2240))
+###### [P2240 【深基12.例1】部分背包问题 - 洛谷 |](https://www.luogu.com.cn/problem/P2240)
 
 ![](../images/luogu/微信截图_20230315122423.png)
 
@@ -251,6 +251,40 @@ public class P_2240 {
             }
         }
         System.out.printf("%.2f",res);
+    }
+}
+
+```
+
+###### [P1090 [NOIP2004 提高组] 合并果子](https://www.luogu.com.cn/problem/P1090)
+
+![](../images/luogu/微信截图_20230315123710.png)
+
+```java
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Scanner;
+
+public class P_1090 {
+    public static final int N = 10010;
+
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        Queue<Integer> qu = new PriorityQueue<>();
+        int res = 0;
+        for (int i = 0; i < n; i ++) {
+            qu.add(sc.nextInt());
+        }
+        while (qu.size() > 1) {
+            int a = qu.poll();
+            int b = qu.poll();
+            res += a + b;
+            qu.add(a + b);
+        }
+        System.out.print(res);
     }
 }
 
