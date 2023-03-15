@@ -1,4 +1,4 @@
-#### 二分
+### 二分
 
 整数二分算法模板
 
@@ -75,15 +75,15 @@ public class Main {
 }
 ```
 
-#### 排序
+### 排序
 
 ##### 快排
 
 ##### 归并
 
-#### dp
+### dp
 
-#### 贪心
+### 贪心
 
 ##### acwing
 
@@ -225,7 +225,7 @@ class Solution {
 
 
 
-#### 前缀和
+### 前缀和
 
 ````
 如果我给你一串长度为n的数列a1,a2,a3......an,再给出m个询问，每次询问给出L，R两个数，要求给出区间[L,R]里的数的和，你会怎么做，若是没有了解过前缀和的人看到这道题的想法可能是对于m次询问，我每次都遍历一遍它给的区间，计算出答案，这样子的方法固然没错，但是其时间复杂度达到了O(n*m)，如果数据量稍微大一点就有可能超时，而我们如果使用前缀和的方法来做的话就能够将时间复杂度降到O(n+m),大大节省了运算时间。至于怎么用，请看下面一小段代码
@@ -405,4 +405,122 @@ S[x1, y1] += c, S[x2 + 1, y1] -= c, S[x1, y2 + 1] -= c, S[x2 + 1, y2 + 1] += c
 
 
 
-#### 差分
+### 差分
+
+### 数学
+
+#### 快速幂
+
+##### acwing
+
+###### 875.快速幂[https://www.acwing.com/problem/content/877/](https://www.acwing.com/problem/content/877/)
+
+![](../images/acSaber/微信截图_20230315095443.png)
+
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static long qmi(int a, int b, int p) {
+        long res = 1, t = a;
+        while (b != 0) {
+            if ((b & 1) == 1) res = t * res % p;
+            t = t * t % p;
+            b >>= 1;
+        }
+        return res;
+    }
+    public static void main (String[] args)  {
+        Scanner sc = new Scanner(System.in);
+
+        int t = sc.nextInt();
+        while (t -- != 0) {
+            int a = sc.nextInt(), b = sc.nextInt(), p = sc.nextInt();
+            System.out.println(qmi(a, b, p));
+        }
+    }
+}
+```
+
+###### 876.快速幂求逆元 [https://www.acwing.com/problem/content/878/](https://www.acwing.com/problem/content/878/)
+
+![](../images/acSaber/微信截图_20230315095646.png)
+
+```java
+import java.util.Scanner;
+
+public class Main{
+    public static long qmin (int a, int b, int p) {
+        long res = 1 % p, t = a;
+        while (b != 0) {
+            if ((b & 1) == 1) res = res * t % p;
+            b >>= 1;
+            t = t * t % p;
+        }
+        return res;
+    }
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while (t -- != 0) {
+            int a = sc.nextInt(), p = sc.nextInt();
+            if (a % p == 0) {
+                System.out.println("impossible");
+            } else {
+                System.out.println(qmin(a, p - 2, p));
+            }
+        }
+    }
+}
+/*
+    当n为质数时，可以用快速幂求逆元：
+    a / b ≡ a * x (mod n)
+    两边同乘b可得 a ≡ a * b * x (mod n)
+    即 1 ≡ b * x (mod n)
+    同 b * x ≡ 1 (mod n)
+    由费马小定理可知，当n为质数时
+    b ^ (n - 1) ≡ 1 (mod n)
+    拆一个b出来可得 b * b ^ (n - 2) ≡ 1 (mod n)
+    故当n为质数时，b的乘法逆元 x = b ^ (n - 2)
+    
+    当n不是质数时，可以用扩展欧几里得算法求逆元：
+    a有逆元的充要条件是a与p互质，所以gcd(a, p) = 1
+    假设a的逆元为x，那么有a * x ≡ 1 (mod p)
+    等价：ax + py = 1
+    exgcd(a, p, x, y)
+*/
+扩展欧几里得算法求逆元:
+#include <iostream>
+using namespace std;
+typedef long long LL;
+int n;
+
+int exgcd(int a, int b, int &x, int &y)
+{
+    if (!b) {
+        x = 1, y = 0;
+        return a;
+    }
+    int d = exgcd(b, a % b, y, x);
+    y -= a / b * x;
+    return d;
+}
+
+
+int main()
+{
+    cin >> n;
+    while (n --)
+    {
+        int a, p, x, y;
+        // if (a < p) swap(a, p);
+        cin >>  a >> p;
+        int d = exgcd(a, p, x, y);
+        if (d == 1) cout << ((LL)x + p) % p << endl;//保证x是正数
+        else puts("impossible");
+
+    }
+    return 0;
+}
+```
+
