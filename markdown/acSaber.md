@@ -85,6 +85,24 @@ public class Main {
 
 ### dp
 
+##### 背包
+
+###### 01背包
+
+![](../images/acSaber/微信截图_20230317100945.png)
+
+```
+
+```
+
+
+
+###### 完全背包
+
+###### 多重背包
+
+###### 分组背包
+
 ###### 1015.摘花生[https://www.acwing.com/problem/content/1017/ ](https://www.acwing.com/problem/content/1017/)
 
 ```
