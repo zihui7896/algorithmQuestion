@@ -40,8 +40,7 @@ public class Ac_4868 {
         System.out.print(ans);
     }
 
-    static
-    class AReader {
+    static class AReader {
         private BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         private StringTokenizer tokenizer = new StringTokenizer("");
         private String innerNextLine() {

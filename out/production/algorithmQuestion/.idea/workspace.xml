@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4a9ed70-8dcb-4054-a1c3-11d1a2f9ce9e" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/markdown/acSaber.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/acSaber.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acw/com/java/weeklyRace/Ac_4865.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/acw/com/java/weeklyRace/Ac_4868.java" beforeDir="false" afterPath="$PROJECT_DIR$/acw/com/java/weeklyRace/Ac_4868.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithmQuestion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmQuestion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithmQuestion/markdown/acSaber.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmQuestion/markdown/acSaber.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,54 +45,19 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="luogu.com" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\zihui\Code\algorithmQuestion\leetcode\java\com" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.P_2240">
-    <configuration name="Ac_1344" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="acw.java.com.usaco.Ac_1344" />
-      <module name="algorithmQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="acw.java.com.usaco.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ac_4510" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="acw.java.com.Ac_4510" />
-      <module name="algorithmQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="acw.java.com.usaco.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ac_842" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="acw.java.com.Ac_842" />
-      <module name="algorithmQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="acw.java.com.usaco.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P_2240" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="luogu.com.java.P_2240" />
+  <component name="RunManager" selected="应用程序.P_8598">
+    <configuration name="P_1044" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="luogu.com.java.P_1044" />
       <module name="algorithmQuestion" />
       <extension name="coverage">
         <pattern>
@@ -101,31 +69,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Text" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Text" />
+    <configuration name="P_1443" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="luogu.com.java.P_1443" />
       <module name="algorithmQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="luogu.com.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="P_1464" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="luogu.com.java.P_1464" />
+      <module name="algorithmQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="luogu.com.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P_1928" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="luogu.com.java.P_1928" />
+      <module name="algorithmQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="luogu.com.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P_8598" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="luogu.com.java.lqb.P_8598" />
+      <module name="algorithmQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="luogu.com.java.lqb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.P_2240" />
-        <item itemvalue="应用程序.Ac_1344" />
-        <item itemvalue="应用程序.Ac_4510" />
-        <item itemvalue="应用程序.Ac_842" />
-        <item itemvalue="应用程序.Text" />
+        <item itemvalue="应用程序.P_8598" />
+        <item itemvalue="应用程序.P_1443" />
+        <item itemvalue="应用程序.P_1928" />
+        <item itemvalue="应用程序.P_1464" />
+        <item itemvalue="应用程序.P_1044" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +170,13 @@
       <workItem from="1678760885765" duration="2303000" />
       <workItem from="1678847421643" duration="633000" />
       <workItem from="1678851063848" duration="412000" />
-      <workItem from="1678851788791" duration="497000" />
+      <workItem from="1678851788791" duration="3368000" />
+      <workItem from="1679018762088" duration="904000" />
+      <workItem from="1679388477725" duration="3000" />
+      <workItem from="1679569128108" duration="2642000" />
+      <workItem from="1679574445230" duration="1692000" />
+      <workItem from="1679635332578" duration="10331000" />
+      <workItem from="1679729022022" duration="754000" />
     </task>
     <servers />
   </component>
@@ -167,6 +188,14 @@
       <screen x="0" y="0" width="1600" height="952" />
     </state>
     <state x="847" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.952@0.0.1600.952" timestamp="1678698077108" />
+    <state x="0" y="365" key="#com.intellij.ide.util.MemberChooser" timestamp="1679651465325">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state x="0" y="365" key="#com.intellij.ide.util.MemberChooser/0.0.1600.952@0.0.1600.952" timestamp="1679651465325" />
+    <state x="660" y="591" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1679729112985">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state x="660" y="591" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1600.952@0.0.1600.952" timestamp="1679729112985" />
     <state x="535" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1678763352031">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
@@ -175,22 +204,22 @@
       <screen x="0" y="0" width="1600" height="952" />
     </state>
     <state x="463" y="428" key="FileChooserDialogImpl/0.0.1600.952@0.0.1600.952" timestamp="1676437362525" />
-    <state width="1281" height="251" key="GridCell.Tab.0.bottom" timestamp="1677310001696">
+    <state width="1238" height="251" key="GridCell.Tab.0.bottom" timestamp="1679654319207">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1281" height="251" key="GridCell.Tab.0.bottom/0.0.1600.952@0.0.1600.952" timestamp="1677310001696" />
-    <state width="1281" height="251" key="GridCell.Tab.0.center" timestamp="1677310001696">
+    <state width="1238" height="251" key="GridCell.Tab.0.bottom/0.0.1600.952@0.0.1600.952" timestamp="1679654319207" />
+    <state width="1238" height="251" key="GridCell.Tab.0.center" timestamp="1679654319207">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1281" height="251" key="GridCell.Tab.0.center/0.0.1600.952@0.0.1600.952" timestamp="1677310001696" />
-    <state width="1281" height="251" key="GridCell.Tab.0.left" timestamp="1677310001696">
+    <state width="1238" height="251" key="GridCell.Tab.0.center/0.0.1600.952@0.0.1600.952" timestamp="1679654319207" />
+    <state width="1238" height="251" key="GridCell.Tab.0.left" timestamp="1679654319207">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1281" height="251" key="GridCell.Tab.0.left/0.0.1600.952@0.0.1600.952" timestamp="1677310001696" />
-    <state width="1281" height="251" key="GridCell.Tab.0.right" timestamp="1677310001696">
+    <state width="1238" height="251" key="GridCell.Tab.0.left/0.0.1600.952@0.0.1600.952" timestamp="1679654319207" />
+    <state width="1238" height="251" key="GridCell.Tab.0.right" timestamp="1679654319207">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1281" height="251" key="GridCell.Tab.0.right/0.0.1600.952@0.0.1600.952" timestamp="1677310001696" />
+    <state width="1238" height="251" key="GridCell.Tab.0.right/0.0.1600.952@0.0.1600.952" timestamp="1679654319207" />
     <state x="577" y="273" width="672" height="678" key="search.everywhere.popup" timestamp="1677141322070">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
