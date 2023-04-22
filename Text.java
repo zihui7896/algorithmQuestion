@@ -1,3 +1,73 @@
+/*
+import java.util.*;
+import java.io.*;
+import java.math.BigInteger;
+
+public class Main {
+    public static void main(String args[]) throws IOException{
+        Read sc = new Read();
+        System.out.println(sc.nextInt() + sc.nextInt());
+        sc.bw.flush();
+        sc.bw.close();
+    }
+}
+class Read{
+    BufferedReader bf;
+    StringTokenizer st;
+    BufferedWriter bw;
+    public Read(){
+        bf=new BufferedReader(new InputStreamReader(System.in));
+        st=new StringTokenizer("");
+        bw=new BufferedWriter(new OutputStreamWriter(System.out));
+    }
+    public String nextLine() throws IOException{
+        return bf.readLine();
+    }
+    public String next() throws IOException{
+        while(!st.hasMoreTokens()){
+            st=new StringTokenizer(bf.readLine());
+        }
+        return st.nextToken();
+    }
+    public char nextChar() throws IOException{
+        return next().charAt(0);
+    }
+    public int nextInt() throws IOException{
+        return Integer.parseInt(next());
+    }
+    public long nextLong() throws IOException{
+        return Long.parseLong(next());
+    }
+    public double nextDouble() throws IOException{
+        return Double.parseDouble(next());
+    }
+    public float nextFloat() throws IOException{
+        return Float.parseFloat(next());
+    }
+    public byte nextByte() throws IOException{
+        return Byte.parseByte(next());
+    }
+    public short nextShort() throws IOException{
+        return Short.parseShort(next());
+    }
+    public BigInteger nextBigInteger() throws IOException{
+        return new BigInteger(next());
+    }
+    public <T> void println(T a) throws IOException{
+        bw.write(String.valueOf(a));
+        bw.newLine();
+        return;
+    }
+    public <T> void print(T a) throws IOException{
+        bw.write(String.valueOf(a));
+        return;
+    }
+    public void print(BigInteger a) throws IOException{
+        bw.write(a.toString());
+        return;
+    }
+}
+*/
 import java.util.*;
 import java.io.*;
 import java.math.*;
