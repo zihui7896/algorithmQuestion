@@ -5,6 +5,5 @@
 - [刷题记录](./markdown/acSaber.md)
 - [剑指 Offer](./markdown/%E5%89%91%E6%8C%87%20Offer.md)
 - [leetcode](./markdown/Leetcode.md)
-- [acw](./markdown/acw.md)
 
 [快读样例](./Text.java)
